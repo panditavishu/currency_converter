@@ -14,7 +14,7 @@ const CurrencyConverter = () => {
   const fetchCurrencyRates = async () => {
     try {
       const response = await fetch(
-        `https://openexchangerates.org/api/latest.json?app_id=cf0db79f75934a5bbce4645141452170`
+        `https://openexchangerates.org/api/latest.json?app_id=API_KEY`
       );
       const data = await response.json();
       console.log('API Response:', data); // Log API response to check data
